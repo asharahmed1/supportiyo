@@ -35,7 +35,7 @@ export default function NavBar() {
             />
             <ThemeToggleButton />
             <Button onClick={() => setShowAddEditNoteDialog(true)}>
-              <Plus size={20} className="mr-2" />
+              <Plus size={15} className="mr-1" />
               Add Document
             </Button>
             <AIChatButton />
