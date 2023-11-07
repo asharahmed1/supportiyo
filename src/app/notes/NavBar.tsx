@@ -25,7 +25,7 @@ export default function NavBar() {
             <Image src={logo} alt="Supportiyo logo" width={40} height={40} />
             <span className="font-bold">Supportiyo</span>
           </Link>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <UserButton
               afterSignOutUrl="/"
               appearance={{
@@ -35,7 +35,7 @@ export default function NavBar() {
             />
             <ThemeToggleButton />
             <Button onClick={() => setShowAddEditNoteDialog(true)}>
-              <Plus size={15} className="mr-1" />
+              <Plus size={10} className="mr-1" />
               Add Document
             </Button>
             <AIChatButton />
