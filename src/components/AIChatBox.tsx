@@ -72,7 +72,7 @@ export default function AIChatBoxProps({ open, onClose }: AIChatBoxProps) {
             !error && messages.length === 0 && (
                 <div className="flex h-full items-center justify-center gap-3">
                     <Image src={logo} alt="Supportiyo logo" width={40} height={40} />
-                    Ask a question.
+                    Ask questions related to your documents and more.
 
                 </div>
             )
